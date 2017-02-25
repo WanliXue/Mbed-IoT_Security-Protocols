@@ -2,30 +2,49 @@
 All the GFN protocols used were referenced form an open source, coded in C++ language and are slightly modified to support the functionality and performance evaluation for this project. They are successfully deployed in STM32F401RE MCU with mbed packages.  
 
 CLEFIA: It is an Ultra Light Weight 64-bit blockcipher. It supports Key Size of 128 and 192 and 256-bit keys.
+
 TEST CASE
+
 PLAIN TEXT: 00010203 04050607 08090A0B 0C0D0E0F
 
 128 Bit Key: FFEEDDCC BBAA9988 77665544 33221100
+
 CIPHER TEXT: DE2BF2FD 9B74AACD F1298555 459494FD
+
 192 Bit Key: FFEEDDCC BBAA9988 77665544 33221100 F0E0D0C0 B0A09080
+
 CIPHER TEXT: E2482F64 9F028DC4 80DDA184 FDE181AD
+
 256 Bit Key: FFEEDDCC BBAA9988 77665544 33221100 F0E0D0C0 B0A09080 70605040 30201000
+
 CIPHER TEXT: A1397814 289DE80C 10DA46D1 FA48B38A
 
+
 PICCOLO: It is an Ultra Light Weight 64-bit blockcipher. It supports Key Size of 80 and 128-bit keys.
+
 TEST CASE
+
 PLAIN TEXT: 01234567 89ABCDEF
 
 80 Bit Key: 00112233 44556677 8899
+
 CIPHER TEXT: 8D2BFF99 35F84056
+
 128 Bit Key: 00112233 44556677 8899AABB CCDDEEFF
+
 CIPHER TEXT: 5EC42CEA 657B89FF
 
+
 TWINE: It is an Ultra Light Weight 64-bit blockcipher. It supports Key Size of 80 and 128-bit keys.
+
 TEST CASE
+
 PLAIN TEXT: 01234567 89ABCDEF
 
 80 Bit Key: 00112233 44556677 8899
+
 CIPHER TEXT: 7C1F0F80 B1DF9C28
+
 128 Bit Key: 00112233 44556677 8899AABB CCDDEEFF
+
 CIPHER TEXT: 979FF9B3 79B5A9B8
